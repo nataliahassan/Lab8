@@ -98,7 +98,7 @@ class CityListTest {
     void testEditCityName() {
         CityList cityList = mockCityList();
         
-        cityList.editCity(cityList.get(0));
+        cityList.editCity(cityList.get(0), "Calgary");
         
         assertEquals("Calgary", cityList.get(o).getCityName());
         
