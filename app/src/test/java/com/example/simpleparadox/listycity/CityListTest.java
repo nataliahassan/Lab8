@@ -100,6 +100,6 @@ class CityListTest {
         
         cityList.editCity(cityList.get(0), "Calgary");
         
-        assertEquals("Calgary", cityList.get(o).getCityName());
+        assertEquals("Calgary", cityList.get(0).getCityName());
         
 }
