@@ -1,5 +1,6 @@
 package com.example.simpleparadox.listycity;
 
+
 public class City implements Comparable<City>{
     private String city;
     private String province;
@@ -11,6 +12,10 @@ public class City implements Comparable<City>{
 
     String getCityName(){
         return this.city;
+    }
+    
+    void setCityName(String name) {
+        city = name;
     }
 
     String getProvinceName(){
