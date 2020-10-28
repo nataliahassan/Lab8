@@ -76,6 +76,7 @@ public class CityList {
      */
     public int countCities() {
         return cities.size();
+        
     }
     
     public void editCityName(City city, String name) {
