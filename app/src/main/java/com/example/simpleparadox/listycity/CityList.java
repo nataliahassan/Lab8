@@ -79,6 +79,6 @@ public class CityList {
     }
     
     public void editCityName(City city, String name) {
-        city.setName(name);
+        city.setCityName(name);
     }
 }
