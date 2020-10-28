@@ -15,6 +15,7 @@ public class City implements Comparable<City>{
     
     void setCityName(String name) {
         city = name;
+    }
 
     String getProvinceName(){
         return this.province;
